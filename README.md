@@ -34,8 +34,8 @@ The **Solar Panel Placement Optimizer** is a Python-based tool designed to deter
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/solar-panel-optimizer.git
-   cd solar-panel-optimizer
+   git clone https://github.com/Akenji/solar-panel-placement-optimizer.git
+   cd solar-panel-placement-optimizer
    ```
 
 2. Create a virtual environment and install dependencies:
