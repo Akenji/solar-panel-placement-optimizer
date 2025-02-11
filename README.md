@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ## Project Structure
 ```
-solar_optimizer/
+solar-panel-placement-optimizer/
 ├── backend/
 │   ├── __init__.py
 │   ├── app.py                 # Flask application
