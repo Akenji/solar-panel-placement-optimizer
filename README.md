@@ -61,14 +61,23 @@ pip install -r requirements.txt
 
 ## Project Structure
 ```
-solar-panel-optimizer/
-├── data/                     # tentative: Weather or solar data files
-├── src/
-│   ├── sunlight_simulation.py  # Solar position calculations
-│   ├── optimization.py         # Tilt and orientation optimization
-│   ├── visualization.py        # 2D/3D visualizations
-│   └── main.py                 # Main script
-├── requirements.txt         # Project dependencies
+solar_optimizer/
+├── backend/
+│   ├── __init__.py
+│   ├── app.py                 # Flask application
+│   ├── solar_optimizer.py     
+│   ├── sun_position.py        
+│   ├── solar_panel.py       
+│   └── weather_service.py     
+├── static/
+│   ├── index.html            # Main HTML file
+│   ├── css/
+│   │   └── style.css         # Styling
+│   └── js/
+│       ├── api.js            # API integration
+│       ├── main.js           # Three.js visualization
+│       └── utils.js          # Helper functions
+├── requirements.txt          # Python dependencies
 └── README.md                # Project documentation
 ```
 
